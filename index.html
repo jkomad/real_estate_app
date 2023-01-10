@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" media="all">
+        <title>Real-Estate App</title>
+    </head>
+    <body>
+        <nav class="topnav">
+            <div class="leftHeader">
+                <a href="index.html" id="home">Find-A-Home</a>
+            </div>
+            <div class="rightHeader">
+                <a href="about.html" id="about">About</a>
+                <a href="contact.html" id="contact">Contact</a>
+            </div>
+        </nav>
+        <!-- We're going to need 4 text input elements and a submit button. This will provide search functionality. Enclose in a form, but use a button type for submitting a query-->
+        <form>
+            <input type="text" id="address" placeholder="Address">
+            <input type="text" id="property" placeholder="Property Type (apartment, townhome, condo, etc...">
+            <input type="text" id="city" placeholder="City">
+            <input type="text" id="state" placeholder="State">
+            <input type="button" id="add" value="Add Listing">
+        </form>
+        <div class="listings">
+            <div class="listing">
+                <h1>Address</h1>
+                <h2>Property Type</h2>
+                <h2>City</h2>
+                <h2>State</h2>
+                <input type="text" name = "comment" class="comment" placeholder="Leave a comment...">
+                <button class="post">Post</button>
+                <button class="deleteBtn">Delete Listing</button>
+            </div>
+        </div>
+        <footer></footer>
+        <script src="js/index.js"></script>
+    </body>
+</html>

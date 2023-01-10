@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding-top: 60px;
+}
+
+.topnav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    font-size: x-large;
+}
+
+.leftHeader {
+    position: fixed;
+    left: 50px;
+}
+
+.rightHeader {
+    position: absolute;
+    right: 0;
+}
+
+.rightHeader a {
+    margin: 0 50px 0 50px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: grey;
+}
+
+form {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+form input {
+    width: 300px;
+    margin: 10px;
+}
+
+input:placeholder-shown {
+    background-color: ivory;
+    border: solid darkorange 2px;
+    border-radius: 20px;
+}
+
+form input[type='button'] {
+    border-radius: 20px;
+}
+
+button {
+    border-radius: 20px;
+}
+
+.listings {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    height: 350px;
+}
+
+img {
+    height: 200px;
+    width: 300px;
+    border-radius: 30px 30px 0 0;
+}
+
+.listing {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: grey;
+    height: 600px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+.comment {
+    position: absolute;
+    bottom: 60px;
+    width: 90%;
+    height: 10%;
+    border-radius: 20px;
+}
+.post {
+    position: absolute;
+    bottom: 35px;
+}
+.deleteBtn {
+    position: absolute;
+    bottom: 10px;
+}
